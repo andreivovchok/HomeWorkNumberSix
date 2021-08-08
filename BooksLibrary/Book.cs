@@ -13,5 +13,18 @@
             _pagesCount = pagesCount;
         }
 
+        public string Title
+        {
+            get { return _title; }
+        }
+        public string NameOfTheLibrary
+        {
+            get { return _nameOfTheLibrary; }
+        }
+        public int PagesCount
+        {
+            get { return _pagesCount; }
+        }
+
     }
 }
